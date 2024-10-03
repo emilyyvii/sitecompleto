@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/aure.png" type="image/x-icon">
+    <title>AURA</title>
+</head>
+<body>
+  <div id="cabecalho">Vista sua essência.</div>
+    <nav>
+    <a href="index.html"><img src="imagens/logo.png" id="logo" alt="Logotipo"></a>
+     <a href="produto.c.html">PARTE DE CIMA</a>
+     <a href="produto.b.html">PARTE DE BAIXO</a>
+     <a href="produto.v.html">VESTIDO</a>
+     <a href="produto.a.html">ACESSÓRIOS</a>
+     <a href="contato.html">CONTATO</a>
+     <a href="quiz.html">QUIZ</a>
+    </nav>
+    <main class="containerquiz">
+        <section class="quiz-section">
+                <h1>Quiz sobre a AURA</h1>
+                <form id="quiz-form">
+       
+                    <!-- Pergunta 1 -->
+                    <section class="question">
+                        <fildset>
+                            <p>1. Quais são os principais produtos oferecidos pela empresa?</p>
+                            <label><input type="radio" name="q1" value="a" onclick="disableOptions('q1'), playsound()"> a) Sapatos</label><br>
+                            <label><input type="radio" name="q1" value="b" onclick="disableOptions('q1'), playsound()"> b) Maquiagem</label><br>
+                            <label><input type="radio" name="q1" value="c" onclick="disableOptions('q1'), playsound()"> c) Refrigerante</label><br>
+                            <label><input type="radio" name="q1" value="d" onclick="disableOptions('q1'), playsound()"> d) Roupas</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 2 -->
+                    <section class="question">
+                        <fildset>
+                            <p>2. Como a empresa se posiciona em relação à sustentabilidade e ao uso de materiais ecológicos?</p>
+                            <label><input type="radio" name="q2" value="a" onclick="disableOptions('q2'), playsound()"> a) É a favor e utiliza de materiais responsáveis</label><br>
+                            <label><input type="radio" name="q2" value="b" onclick="disableOptions('q2'), playsound()"> b) É a favor porém não utiliza de materiais responsáveis</label><br>
+                            <label><input type="radio" name="q2" value="c" onclick="disableOptions('q2'), playsound()"> c) É contra e não utiliza de materiais responsáveis</label><br>
+                            <label><input type="radio" name="q2" value="d" onclick="disableOptions('q2'), playsound()"> d) Nenhuma das anteriores</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 3 -->
+                    <section class="question">
+                        <fildset>
+                            <p>3. O site oferece uma seção de novidades?</p>
+                            <label><input type="radio" name="q3" value="a" onclick="disableOptions('q3'), playsound()"> a) Sim, na página de contatos</label><br>
+                            <label><input type="radio" name="q3" value="b" onclick="disableOptions('q3'), playsound()"> b) Sim, na página inicial</label><br>
+                            <label><input type="radio" name="q3" value="c" onclick="disableOptions('q3'), playsound()"> c) Não, não há seção com novidades</label><br>
+                            <label><input type="radio" name="q3" value="d" onclick="disableOptions('q3'), playsound()"> d) Não, pois não possui novidades</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 4 -->
+                    <section class="question">
+                        <fildset>
+                            <p>4. Como é a separação de peças que o site faz?</p>
+                            <label><input type="radio" name="q4" value="a" onclick="disableOptions('q4'), playsound()"> a) Através de páginas separadas em vestidos, parte de cima, parte de baixo e etc</label><br>
+                            <label><input type="radio" name="q4" value="b" onclick="disableOptions('q4'), playsound()"> b) As peças ficam todas em uma página só</label><br>
+                            <label><input type="radio" name="q4" value="c" onclick="disableOptions('q4'), playsound()"> c) É separado por cores das peças</label><br>
+                            <label><input type="radio" name="q4" value="d" onclick="disableOptions('q4'), playsound()"> d) É separado em duas páginas, uma para peças em oferta e uma para as demais peças</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 5 -->
+                    <section class="question">
+                        <fildset>
+                            <p>5. O site possui um blog ou uma página de informações sore a empresa?</p>
+                            <label><input type="radio" name="q5" value="a" onclick="disableOptions('q5'), playsound()"> a) Sim, junto dos produtos</label><br>
+                            <label><input type="radio" name="q5" value="b" onclick="disableOptions('q5'), playsound()"> b) Não há informações</label><br>
+                            <label><input type="radio" name="q5" value="c" onclick="disableOptions('q5'), playsound()"> c) Sim, na página inicial</label><br>
+                            <label><input type="radio" name="q5" value="d" onclick="disableOptions('q5'), playsound()"> d) Sim, as informações ficam no rodapé</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 6 -->
+                    <section class="question">
+                        <fildset>
+                            <p>6. Que tipo de informações são compartilhadas na página inicial?</p>
+                            <label><input type="radio" name="q6" value="a" onclick="disableOptions('q6'), playsound()"> a) Compra de produtos</label><br>
+                            <label><input type="radio" name="q6" value="b" onclick="disableOptions('q6'), playsound()"> b) Como entrar em contato com a empresa</label><br>
+                            <label><input type="radio" name="q6" value="c" onclick="disableOptions('q6'), playsound()"> c) Não há informações</label><br>
+                            <label><input type="radio" name="q6" value="d" onclick=" disableOptions('q6'), playsound()"> d) Sobre o site e um vídeo sobre as novidades</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 7 -->
+                    <section class="question">
+                        <fildset>
+                            <p>7. A empresa apresenta suas novas coleções de roupas em sua página?</p>
+                            <label><input type="radio" name="q7" value="a" onclick="disableOptions('q7'), playsound()"> a) Sim, dentro da página de quiz</label><br>
+                            <label><input type="radio" name="q7" value="b" onclick="disableOptions('q7'), playsound()"> b) Sim, na página inicial</label><br>
+                            <label><input type="radio" name="q7" value="c" onclick="disableOptions('q7'), playsound()"> c) Não, as coleções novas não são compartilhadas</label><br>
+                            <label><input type="radio" name="q7" value="d" onclick="disableOptions('q7'), playsound()"> d) O site apenas compartilha as coleções das outras temporadas</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 8 -->
+                    <section class="question">
+                        <fildset>
+                            <p>8. O site possui ferramentas interativas?</p>
+                            <label><input type="radio" name="q8" value="a" onclick="disableOptions('q8'), playsound()"> a) Sim, como a página de contato</label><br>
+                            <label><input type="radio" name="q8" value="b" onclick="disableOptions('q8'), playsound()"> b) Sim, através do vídeo que há no site</label><br>
+                            <label><input type="radio" name="q8" value="c" onclick="disableOptions('q8'), playsound()"> c) Não possui interação</label><br>
+                            <label><input type="radio" name="q8" value="d" onclick="disableOptions('q8'), playsound()"> d) As interações são limitadas</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 9 -->
+                    <section class="question">
+                        <fildset>
+                            <p>9. Quais opções existe para entrar em contato com a empresa?</p>
+                            <label><input type="radio" name="q9" value="a" onclick="disableOptions('q9'), playsound()"> a) Através do carrinho de itens</label><br>
+                            <label><input type="radio" name="q9" value="b" onclick="disableOptions('q9'), playsound()"> b) Através do formulário de contato e das redes sociais e telefone da empresa</label><br>
+                            <label><input type="radio" name="q9" value="c" onclick="disableOptions('q9'), playsound()"> c) Através das página inicial</label><br>
+                            <label><input type="radio" name="q9" value="d" onclick="disableOptions('q9'), playsound()"> d) Não possui formas de entrar em contato</label>
+                        </fildset>
+                    </section>
+       
+                    <!-- Pergunta 10 -->
+                    <section class="question">
+                        <fildset>
+                            <p>10. O site fornece informações sobre o produto como o preço deles?</p>
+                            <label><input type="radio" name="q10" value="a" onclick="disableOptions('q10'), playsound()"> a) Sim, no quiz</label><br>
+                            <label><input type="radio" name="q10" value="b" onclick="disableOptions('q10'), playsound()"> b) Não, os produtos são de graça</label><br>
+                            <label><input type="radio" name="q10" value="c" onclick="disableOptions('q10'), playsound()"> c) Não possui informações</label><br>
+                            <label><input type="radio" name="q10" value="d" onclick="disableOptions('q10'), playsound()"> d) Sim, nas páginas onde há os produtos
+                            </label>
+                        </fildset>
+                    </section>
+       
+                    <button class="buttones"  type="button" onclick="SubmitQuiz()">Enviar Respostas</button>
+                    <button class="buttones" id="reiniciar" type="button" onclick="submitAgain()">Responder Novamente</button>
+     
+                </form>
+     
+                <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+                <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+                <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+     
+                <section id="result"></section>
+            </section>
+        </main>
+
+<footer>Todos os direitos reservado a empresa AURA
+   <br>
+    <a href="https://www.instagram.com/" target="_blank"><img src="imagens/instaa.png" alt="Instagram"></a> <a href="" target="_blank"><img src="imagens/tikTok.png" alt="Tiktok"></a> <a href="https://www.youtube.com/" target="_blank"><img src="imagens/yt.png" alt="Youtube"></a>
+</footer>   
+<script src="script.js"></script>
+</html>
